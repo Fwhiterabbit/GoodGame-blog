@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import os
 import dj_database_url
+import cloudinary
 
 if os.path.isfile('env.py'):
     import env
@@ -31,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://gg-blog-27459f85e928.herokuapp.com/', 'codestar2023']
+ALLOWED_HOSTS = ['8000-fwhiterabbi-goodgameblo-15ud1paok4t.ws-eu104.gitpod.io', 'codestar2023']
 
 
 # Application definition
@@ -146,3 +147,5 @@ DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
