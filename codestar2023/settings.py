@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['gg-blog-27459f85e928.herokuapp.com', 'codestar2023'],
+ALLOWED_HOSTS = ['gg-blog-27459f85e928.herokuapp.com', 'codestar2023']
 
 
 
