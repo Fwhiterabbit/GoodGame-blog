@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-fwhiterabbi-goodgameblo-3r8jp6sri9z.ws-eu105.gitpod.io', 'codestar2023']
+ALLOWED_HOSTS = ['8000-fwhiterabbi-goodgameblo-va0fpq0cgyi.ws-eu105.gitpod.io', 'codestar2023']
 
 # ALLOWED_HOSTS = ['gg-blog-27459f85e928.herokuapp.com', 'codestar2023']
 
@@ -54,7 +54,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
     'django_summernote',
-    'crispy_forms'
+    'crispy_forms',
     'gg_blog',
 ]
 
