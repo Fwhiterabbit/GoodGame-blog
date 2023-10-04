@@ -36,7 +36,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['8000-fwhiterabbi-goodgameblo-ovq2hoxhy8l.ws-eu105.gitpod.io', 'codestar2023']
+ALLOWED_HOSTS = ['*', 'codestar2023']
 
 # ALLOWED_HOSTS = ['gg-blog.herokuapp.com', 'localhost']
 
