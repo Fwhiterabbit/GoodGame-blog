@@ -31,9 +31,12 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# debug flag to be False befoer deploying to heroku !!!
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-fwhiterabbi-goodgameblo-va0fpq0cgyi.ws-eu105.gitpod.io', 'codestar2023']
+X_FRAME_OPTIONS = 'SAMEORIGIN'
+
+ALLOWED_HOSTS = ['8000-fwhiterabbi-goodgameblo-ovq2hoxhy8l.ws-eu105.gitpod.io', 'codestar2023']
 
 # ALLOWED_HOSTS = ['gg-blog.herokuapp.com', 'localhost']
 
